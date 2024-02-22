@@ -11,5 +11,26 @@
         <h1>Welcome to My Personal Website</h1>
         <p>This website will showcase my skills and experiences.</p>
     </div>
+
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="chat-header">
+                <span>Chat Box</span>
+                <button class="close-btn" onclick="closeChat">X</button>
+            </div>
+            <div id="response" class="chat-body">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="promptInput" placeholder="Type your message here...">
+                <button id="submitButton" onclick="sendPrompt">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src= "script.js"></script>
+
+
+
+
 </body>
 </html>
